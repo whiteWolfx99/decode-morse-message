@@ -1,19 +1,17 @@
-Morse = {
-  'A' => '.-', 'B' => '-...', 'C' => '-.-.', 'D' => '-..', 
+# frozen_string_literal: true
+
+MORSE = {
+  'A' => '.-', 'B' => '-...', 'C' => '-.-.', 'D' => '-..',
   'E' => '.', 'F' => '..-.', 'G' => '--.', 'H' => '....',
   'I' => '..', 'J' => '.---', 'K' => '-.-', 'L' => '.-..',
   'M' => '--', 'N' => '-.', 'O' => '---', 'P' => '.--.',
   'Q' => '--.-', 'R' => '.-.', 'S' => '...', 'T' => '-',
   'U' => '..-', 'V' => '...-', 'W' => '.--', 'X' => '-..-',
-  'Y' => '-.--', 'Z' => '--..',
-}
+  'Y' => '-.--', 'Z' => '--..'
+}.freeze
 
 def decode_char(char)
-  Morse.each do |key, value|
-    if value == char
-      return key
-    end
-  end
+  MORSE.key(char)
 end
 
 def decode_word(word)
