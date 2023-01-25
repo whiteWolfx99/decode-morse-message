@@ -1,3 +1,1 @@
-puts $"hevar"
-puts $"nela"
-puts $"youssef"
+puts "hevar \n nela \n youssef \n" 
