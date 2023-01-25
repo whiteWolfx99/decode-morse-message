@@ -25,4 +25,3 @@ def decode_message(message)
 end
 
 puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-
