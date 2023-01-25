@@ -1,3 +1,4 @@
 
-print "jednjdnj"
-print "jednjdnj"
+puts "hevar"
+puts "nela"
+puts "youssef"
