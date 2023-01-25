@@ -1,4 +1,3 @@
-
-puts "hevar"
-puts "nela"
-puts "youssef"
+puts $"hevar"
+puts $"nela"
+puts $"youssef"
